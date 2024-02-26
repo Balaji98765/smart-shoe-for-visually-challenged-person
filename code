@@ -31,11 +31,8 @@ void loop() {
   if(distance>=60&&distance<=100)
   {
     digitalWrite(9,HIGH);
-    digitalWrite(11,LOW);}
-  else if(distance>100&&distance<=150)
-  {
-    digitalWrite(11,HIGH);
-    digitalWrite(9,LOW);}
+    digitalWrite(11,HIGH);}
+  
   else 
   {
     digitalWrite(11,LOW);
